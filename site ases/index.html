@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASES - Asociația Economic Socială</title>
+    <link rel="stylesheet" href="css.css">
+
+</head>
+
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="#acasa">Acasă</a></li>
+            <li><a href="#despre">Despre</a></li>
+            <li><a href="#proiecte">Proiecte</a></li>
+            <li><a href="#servicii">Servicii</a></li>
+            <li><a href="#social">Social</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="acasa">
+    <h1 id="ases-text">ASES</h1>
+    <p>Promovăm dezvoltarea economică și socială prin proiecte sustenabile.</p>
+    <button id="homeBtn">Despre noi</button>
+</section>
+
+<section id="despre">
+    <div class="despre-container">
+        <div class="despre1">
+            <h2>Despre noi</h2>
+            <p>ASES este o organizație non-guvernamentală dedicată <strong>sprijinirii și dezvoltării comunității</strong> prin inițiative economice, sociale și educaționale. Misiunea noastră este să creăm oportunități durabile pentru indivizi și afaceri, promovând <strong>incluziunea, sustenabilitatea și inovația</strong> în fiecare proiect pe care îl desfășurăm.</p>
+
+        </div>
+        <div class="despre2">
+            <img src="images/despre2.jpg" alt="Imagine despre noi">
+        </div>
+    </div>
+</section>
+
+<section id="proiecte">
+    <div class="proiecte-container">
+        <div class="slider">
+            <img src="images/despre.jpg" alt="despre">
+            <div class="slider-controls">
+                <button id="prevSlide">❮</button>
+                <button id="nextSlide">❯</button>
+            </div>
+    </div>
+<div class="proiecte-content">
+        <h2>Proiecte</h2>
+        <ul>
+            <li><strong>Programe de formare profesională și mentorat</strong> pentru tineri și antreprenori aflați la început de drum.</li>
+            <li><strong>Workshop-uri de educație financiară și antreprenorială</strong> pentru a încuraja inovația și independența economică.</li>
+            <li><strong>Proiecte sociale pentru incluziunea grupurilor vulnerabile</strong>, creând punți între generații și comunități.</li>
+            <li><strong>Colaborări cu instituții și companii</strong> pentru a facilita integrarea pe piața muncii.</li>
+        </ul>
+</div>
+    </div>
+</section>
+
+
+<section id="servicii">
+    <h2>Serviciile noastre</h2>
+    <p>Oferim consultanță, mentorat și resurse pentru dezvoltare economică.</p>
+</section>
+
+<section id="social">
+    <h2>Implicare socială</h2>
+    <p>Ne implicăm activ în inițiative sociale și proiecte de voluntariat.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <form id="contactForm">
+        <label for="nume">Nume:</label>
+        <input type="text" id="nume" name="nume" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mesaj">Mesaj:</label>
+        <textarea id="mesaj" name="mesaj" required></textarea>
+
+        <button type="submit">Trimite</button>
+    </form>
+</section>
+</body>
+<script src="js.js" defer></script>
+</html>
+
